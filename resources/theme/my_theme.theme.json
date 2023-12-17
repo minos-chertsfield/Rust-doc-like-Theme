@@ -1,0 +1,46 @@
+{
+  "name": "My_theme",
+  "author": "Minos.cpp",
+  "dark": true,
+
+
+  "colors": {
+    "commonGreen": "#0b7261",
+    "buttonColor": "#a72145",
+    "commonPurple": "#2e2459",
+
+    "highlightColor": "#2b79a2",
+    "itemColor": "#505274",
+    "foregroundColor": "#bcbdd0",
+    "backgroudColor": "#161923",
+    "listBackground": "#282d3f"
+  },
+
+  "ui": {
+    "*": {
+      "background": "backgroudColor",
+      "foreground": "foregroundColor"
+    },
+    "Button.default.startBackground": "highlightColor",
+    "Button.default.endBackground": "highlightColor",
+
+    "EditorTabs": {
+      "underlineColor": "highlightColor",
+      "underlineHeight": 4,
+      "underlinedTabBackground": "itemColor"
+    },
+    "Panel.background": {
+      "background": "listBackground"
+    },
+    "ToolWindow": {
+      "background": "listBackground"
+    }
+  },
+
+
+  "icons": {
+    "ColorPalette": {
+      "Objects.Green": "#511fd6"
+    }
+  }
+}
